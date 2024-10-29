@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE0B2"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/completionCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/bestTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp" />
+
+    <GridLayout
+        android:id="@+id/puzzleGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center">
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/elapsedTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elapsed Time: 0s"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14dp" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:textSize="26sp"
+        android:text="Restart"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"/>
+
+</LinearLayout>

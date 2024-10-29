@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NumberSlidingPuzzle" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="android:navigationBarColor">@color/green</item>
+    </style>
+
+    <style name="Theme.NumberSlidingPuzzle" parent="Base.Theme.NumberSlidingPuzzle" />
+</resources>
